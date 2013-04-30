@@ -1,0 +1,16 @@
+name:                pottery
+version:             0.1.0.0
+synopsis:            A css framework based on clay
+homepage:            http://github.com/piyush-kurur/pottery
+license:             BSD3
+
+license-file:        LICENSE
+author:              Piyush P Kurur
+maintainer:          ppk@cse.iitk.ac.in
+
+category:            Web
+build-type:          Simple
+cabal-version:       >=1.8
+
+library
+  build-depends: base ==4.5.*
