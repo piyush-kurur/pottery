@@ -74,7 +74,7 @@ basicTypography = do
   -- go back to normal font.
   em ? do fontStyle italic
           em <? do fontStyle normal
-                   em <? fontStyle normal
+                   em <? fontStyle italic
 
   -- stuff in small font should be small
   small ? do fontSize $ pct 80
